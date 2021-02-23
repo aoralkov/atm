@@ -25,10 +25,10 @@ Total sum - {self.get_total_sum()}"""
     output_options = self.__find_output_options(req)
     print(output_options)
     if len(output_options) == 0:
-      print("Not enough money")
+      # print("Not enough money")
     else:
       best_option = self.__choose_best_option(output_options)
-      print(best_option)
+      # print(best_option)
       self.__give_money(best_option)
       print(self)
   
